@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// @import "~bootstrap/dist/css/bootstrap.css";
+
+::-webkit-scrollbar {
+  width: 9px;
+  min-width: 9px;
+  max-width: 9px;
+  flex-basis: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c2c2c2;
+  border-radius: 10px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}

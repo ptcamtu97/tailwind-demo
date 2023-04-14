@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-blue {
+  @apply py-2 px-3 
+        border border-solid 
+        border-blue-600 
+        text-sky-600;
+}
